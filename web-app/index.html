@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
 
-    <body>
-        <h1>Hello World</h1>
-        <p>This is version 2</p>
-    </body>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 40px;
+        }
+
+        p {
+            color: #666;
+            font-size: 20px;
+        }
+
+        .fancy-button {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .fancy-button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>This is version 3</p>
+
+    <button class="fancy-button" onclick="showAlert()">Click Me!</button>
+
+    <script>
+        function showAlert() {
+            alert("Hello! Welcome to the fancier version 2!");
+        }
+    </script>
+</body>
 
 </html>
